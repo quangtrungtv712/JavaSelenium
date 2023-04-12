@@ -7,6 +7,7 @@ public class Lab_03_02 {
         int min = intArr[0];
         int max = intArr[0];
         for (int i = 0; i < intArr.length; i++) {
+
             if (intArr[i] < min) {
                 min = intArr[i];
             } else if (intArr[i] > max) {

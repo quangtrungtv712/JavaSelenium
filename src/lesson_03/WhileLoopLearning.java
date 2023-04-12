@@ -12,13 +12,14 @@ public class WhileLoopLearning {
          * */
         boolean isCountinuing = true;
         while (isCountinuing) {
-            System.out.println("==============GAME MENU==================");
-            System.out.println("1. Ganerate random number < 1000");
-            System.out.println("0. Exit");
+//            System.out.println("==============GAME MENU==================");
+//            System.out.println("1. Ganerate random number < 1000");
+//            System.out.println("0. Exit");
 
-            Scanner newScanner = new Scanner(System.in);
-            System.out.println("Please select option");
-            int option = newScanner.nextInt();
+            printSimpleMenu();
+
+            int option = getUserOptions();
+
 
             if (option == 0) {
                 isCountinuing = false;
@@ -42,4 +43,18 @@ public class WhileLoopLearning {
 //            i++;
         //       }
     }
+
+    private static void printSimpleMenu() {
+        System.out.println("==============GAME MENU==================");
+        System.out.println("1. Ganerate random number < 1000");
+        System.out.println("0. Exit");
+    }
+
+    private static int getUserOptions() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Please select option: ");
+        return scanner.nextInt();
+    }
+
+
 }
