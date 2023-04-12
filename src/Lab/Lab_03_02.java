@@ -1,4 +1,4 @@
-package lesson_03;
+package Lab;
 
 public class Lab_03_02 {
     public static void main(String[] args) {
@@ -9,7 +9,9 @@ public class Lab_03_02 {
         for (int i = 0; i < intArr.length; i++) {
 
             if (intArr[i] < min) {
+
                 min = intArr[i];
+
             } else if (intArr[i] > max) {
                 max = intArr[i];
             }
