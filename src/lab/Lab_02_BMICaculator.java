@@ -1,8 +1,8 @@
-package Lab;
+package lab;
 
 import java.util.Scanner;
 
-public class LAB_02_BMICaculator {
+public class Lab_02_BMICaculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

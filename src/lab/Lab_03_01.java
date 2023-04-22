@@ -1,4 +1,4 @@
-package Lab;
+package lab;
 
 public class Lab_03_01 {
     public static void main(String[] args) {
@@ -13,8 +13,8 @@ public class Lab_03_01 {
                 oddNumber++;
             }
         }
-        System.out.println("Even numbers: "+evenNumber);
-        System.out.println("Odd numbers: "+oddNumber);
+        System.out.println("Even numbers: " + evenNumber);
+        System.out.println("Odd numbers: " + oddNumber);
     }
 
 }
